@@ -1,0 +1,52 @@
+{
+  "company": {
+    "name": "Entreprise Moderne",
+    "founded": 2000,
+    "description": "Entreprise Moderne est à l'avant-garde de l'innovation depuis plus de 20 ans. Notre mission est de fournir des solutions de pointe à nos clients.",
+    "employees": 500,
+    "headquarters": "Paris, France"
+  },
+  "services": [
+    {
+      "id": 1,
+      "name": "Développement Web",
+      "description": "Création de sites web et d'applications web sur mesure",
+      "image": "https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": 2,
+      "name": "Intelligence Artificielle",
+      "description": "Solutions d'IA pour optimiser vos processus métier",
+      "image": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": 3,
+      "name": "Cybersécurité",
+      "description": "Protection de vos données et systèmes contre les menaces",
+      "image": "https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Jean Dupont",
+      "company": "Tech Innovators",
+      "quote": "Entreprise Moderne a transformé notre façon de travailler. Leur solution d'IA a augmenté notre productivité de 30%.",
+      "image": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": 2,
+      "name": "Marie Martin",
+      "company": "E-commerce Plus",
+      "quote": "Le site web créé par Entreprise Moderne a doublé nos conversions en ligne. Un travail remarquable !",
+      "image": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "id": 3,
+      "name": "Bernard LeCanard",
+      "company": "IA-Innovation",
+      "quote": "Ils sont les meilleurs.Il nous ont donné une visibilité sans équivauque. Un travail remarquable !",
+      "image": "https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+  ]
+}

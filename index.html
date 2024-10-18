@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entreprise Moderne - Accueil</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="info-bar">
+        <div class="container">
+            <span><i class="fas fa-phone"></i> +33 1 23 45 67 89</span>
+            <span><i class="fas fa-envelope"></i> contact@entreprise-moderne.com</span>
+        </div>
+    </div>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.jpg" alt="Logo Entreprise Moderne">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#accueil"><i class="fas fa-home"></i> Accueil</a></li>
+                    <li><a href="#services"><i class="fas fa-cogs"></i> Services</a></li>
+                    <li><a href="#a-propos"><i class="fas fa-info-circle"></i> À propos</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="accueil" class="hero">
+            <h1>Bienvenue chez Entreprise Moderne</h1>
+            <p>Nous façonnons l'avenir avec des solutions innovantes</p>
+            <a href="#contact" class="cta-button">Contactez-nous</a>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Nos Services</h2>
+            <div class="service-grid" id="service-grid">
+                <!-- Les services seront injectés ici par JavaScript -->
+            </div>
+        </section>
+
+        <section id="a-propos" class="about">
+            <h2>À Propos de Nous</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Entreprise Moderne est à l'avant-garde de l'innovation depuis plus de 20 ans. Notre mission est de fournir des solutions de pointe à nos clients.</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/team.jpg" alt="Notre équipe">
+                </div>
+            </div>
+        </section>
+
+        <section id="temoignages" class="testimonials">
+            <h2>Ce que disent nos clients</h2>
+            <div class="testimonial-grid" id="testimonial-grid">
+                <!-- <div class="testimonial-card">
+                    <img src="" alt="" class="testimonial-image">
+                    <p class="quote"></p>
+                    <div class="author"></div>
+                    <div class="company"></div>
+                </div> -->
+                <!-- Les témoignages seront injectés ici par JavaScript -->
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contactez-nous</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Votre nom" required>
+                <input type="email" name="email" placeholder="Votre email" required>
+                <textarea name="message" placeholder="Votre message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Entreprise Moderne</h4>
+                <p>123 Rue de l'Innovation<br>75000 Paris, France</p>
+            </div>
+            <div class="footer-section">
+                <h4>Liens Rapides</h4>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#a-propos">À propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Suivez-nous</h4>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Entreprise Moderne. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
